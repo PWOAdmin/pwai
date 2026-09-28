@@ -1,0 +1,8 @@
+with "../pwai.gpr";
+
+project Pwai_Tests is
+   for Source_Dirs use (".");
+   for Object_Dir use "../obj/tests";
+   for Exec_Dir use "../bin";
+   for Main use ("test_runner.adb");
+end Pwai_Tests;

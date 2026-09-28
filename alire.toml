@@ -1,0 +1,19 @@
+name = "pwai"
+description = "OpenAI Lib"
+version = "0.1.0-dev"
+
+authors = ["Sergei Adonev"]
+maintainers = ["Sergei Adonev <admin@punks.work>"]
+maintainers-logins = ["PWOAdmin"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+
+[[depends-on]]
+gnatcoll = "^26.0.0"
+
+[[depends-on]]
+aws = "^21.0.0"
+
+[[depends-on]]
+aunit = "^26.0.0"
